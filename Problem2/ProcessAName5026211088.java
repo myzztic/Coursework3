@@ -19,7 +19,7 @@ public class ProcessAName5026211088 {
         
         // Get last name by detecting the last " " (space) on a string
         lastSpace = name.lastIndexOf(" ");
-        lastName = name.substring(lastSpace);
+        lastName = name.substring(lastSpace + 1);
         
         // Output
         System.out.println("Your name is: " + lastName + ", " + firstChar + ".");
